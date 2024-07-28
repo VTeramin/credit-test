@@ -1,3 +1,4 @@
-@import './styles/mobile-styles.css';
-@import './styles/table-styles.css';
-@import './styles/button-styles.css';
+@import './styles/mobile.css';
+@import './styles/table.css';
+@import './styles/button.css';
+@import './styles/modal.css';
