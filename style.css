@@ -1,4 +1,13 @@
-@import './styles/mobile.css';
 @import './styles/table.css';
 @import './styles/button.css';
 @import './styles/modal.css';
+@import './styles/mobile.css';
+
+body {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+}

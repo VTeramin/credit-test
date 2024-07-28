@@ -23,14 +23,16 @@
         </thead>
         <tbody id="credits-info"></tbody>
     </table>
-    <div class="modal">
-        <form class="modal__form">
-            <input type="text" required="required"/>
-            <input type="text" required="required"/>
-            <input type="button" value="Оформить"/>
-            <button class="modal__close">x</button>
-        </form>
+    <div class="wrapper">
+        <div class="modal">
+            <form class="modal__form">
+                <input type="text" placeholder="Имя" required="required" />
+                <input type="email" placeholder="Электронная почта" required="required" />
+                <input type="button" value="Оформить" class="form__submit-button" />
+            </form>
+        </div>
     </div>
     <script type="module" src="./index.js"></script>
 </body>
+
 </html>
