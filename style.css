@@ -1,5 +1,5 @@
 .credits {
-    font-family: "Roboto", sans-serif;
+	font-family: "Roboto", sans-serif;
 	width: 100%;
 	border: none;
 	margin-bottom: 20px;
@@ -16,11 +16,13 @@
 	border-top: 1px solid #ddd;
 }
 
-.credits tr th:first-child, .credits tr td:first-child {
+.credits tr th:first-child,
+.credits tr td:first-child {
 	border-left: 1px solid #ddd;
 }
 
-.credits tr th:last-child, .credits tr td:last-child {
+.credits tr th:last-child,
+.credits tr td:last-child {
 	border-right: 1px solid #ddd;
 }
 
@@ -30,6 +32,7 @@
 
 .credits thead tr th:last-child {
 	border-radius: 0 20px 0 0;
+	text-align: center;
 }
 
 .credits tbody td {
@@ -37,14 +40,14 @@
 	border: none;
 	padding: 10px 15px;
 	font-size: 14px;
-	vertical-align: top;
+	vertical-align: center;
 }
 
 .credits tbody tr:nth-child(even) {
 	background: #F8F8F8;
 }
 
-.credits tbody tr:last-child td{
+.credits tbody tr:last-child td {
 	border-bottom: 1px solid #ddd;
 }
 
@@ -54,4 +57,32 @@
 
 .credits tbody tr:last-child td:last-child {
 	border-radius: 0 0 20px 0;
+}
+
+.credits button {
+	font-family: inherit;
+	height: 40px;
+	width: 100%;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: .25rem;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	cursor: pointer;
+}
+
+.credits button:hover,
+.credits button:focus {
+	border-color: rgba(0, 0, 0, 0.15);
+	box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.credits button:hover {
+	transform: translateY(-1px);
+}
+
+.credits button:active {
+	background-color: #F0F0F1;
+	border-color: rgba(0, 0, 0, 0.15);
+	box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+	transform: translateY(0);
 }
